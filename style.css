@@ -1,4 +1,16 @@
-body {
-    background-color: rgb(142, 245, 245);
-}
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Sunshiney&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
 
+body {
+    background-image: linear-gradient(to right, rgb(247, 184, 253), #5597f4f9, rgb(152, 241, 152));
+
+.header {
+    color   rgb(111, 192, 250);
+    background-color:
+    padding: 13px;
+    font-family: "Zalando Sans SemiExpanded";
+    display:flex;
+    justify-content: center;
+    
+"
+    
+}
