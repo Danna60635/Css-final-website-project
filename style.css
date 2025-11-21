@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Sunshiney&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-    background-image: linear-gradient(to right, rgb(247, 184, 253), #5597f4f9, rgb(152, 241, 152));
+    background-image: linear-gradient(to right, rgb(154, 208, 246), #5597f4f9, rgb(152, 241, 152));
+}
 
 .header {
-    color   rgb(111, 192, 250);
+    color: rgb(111, 192, 250);
     background-color: rgba(255, 255, 255, 0.489);
     padding: 13px;
     font-family: "Zalando Sans SemiExpanded";
+}
+
+.nav {
+    background-color: rgb(165, 214, 237);
+    width: 100px;
+    height: 150px;
+    padding: 40px;
+    border-radius: 60px; 
+    position: fixed;
+    top: 440px;
+    right: 0px;
+    
 }
