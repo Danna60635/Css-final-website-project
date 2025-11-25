@@ -18,11 +18,16 @@ body {
 .nav {
     background-color: rgb(165, 214, 237);
     width: 100px;
-    height: 170px;
+    height: 200px;
     padding: 40px;
     border-radius: 80px; 
+    border-style: double;
     position: fixed;
     top: 360px;
     right: 0px;
     
+}
+
+.main-content {
+
 }
