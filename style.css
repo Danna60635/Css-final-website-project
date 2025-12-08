@@ -17,10 +17,13 @@ body {
 .nav {
     background-color: rgb(165, 214, 237);
     width: 100px;
-    height: 200px;
+    height: 300px;
     padding: 40px;
-    border-radius: 80px; 
-    border-style: double;
+    border-top-left-radius: 150px; 
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: double ;
     position: fixed;
     top: 360px;
     right: 0px;
@@ -29,8 +32,8 @@ body {
 
 .nav-links {
     display: flex;
+    justify-content: flex-end;
     padding: 2rem;
-    justify-content: flex-start;
     list-style: none;
 }
 
@@ -40,8 +43,10 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: 2s;
+
 }
 
 .nav-links a:hover {
     background-color:rgb(24, 119, 227);
 }
+
