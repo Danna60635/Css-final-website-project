@@ -1,8 +1,27 @@
 body {
-    background-color: rgb(17, 243, 243);
+    background-color: rgb(112, 244, 244);
 }
 
 
 .header {
-    background-color: rgb(190, 190, 232);
+    background-color: rgb(104, 229, 248);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: 2s;
+}
+
+.nav-links a:hover {
+    background-color:rgb(76, 234, 207);
 }
