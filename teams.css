@@ -4,7 +4,7 @@ body {
 
 
 .header {
-    background-color: rgb(104, 229, 248);
+    background-color: rgb(133, 223, 239);
 }
 
 .nav-links {
@@ -25,3 +25,4 @@ body {
 .nav-links a:hover {
     background-color:rgb(76, 234, 207);
 }
+
